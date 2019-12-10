@@ -1,0 +1,23 @@
+header {
+    display: inline;
+}
+
+footer {
+    display: inline;
+
+}
+
+#topBar p{
+    display: inline-block;
+
+
+}
+#content {
+    display: block;
+}
+
+#logo {
+    padding-top: 109px;
+    width: 272px;
+    height: 92px; 
+}
