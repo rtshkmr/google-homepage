@@ -3,7 +3,7 @@ header {
 }
 
 footer {
-    display: inline;
+    display: inline-flex;
 
 }
 
@@ -14,10 +14,34 @@ footer {
 }
 #content {
     display: block;
+    text-align: center;
 }
+
 
 #logo {
     padding-top: 109px;
     width: 272px;
     height: 92px; 
+}
+li {
+
+    display: inline-block;
+}
+
+#leftFoot {
+    display: inline-block;
+    text-align: center;
+    align-content: left;
+}
+#rightFoot{
+    display: inline-block;
+    text-align: center;
+    align-content: right;
+
+}
+
+footer.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
